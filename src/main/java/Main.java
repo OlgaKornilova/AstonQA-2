@@ -11,14 +11,14 @@ public class Main {
         printStringMultipleTimes("Hi,Aston!", 5);
         System.out.println(isLeapYear(2000)); //Ожидаемый результат: true
 
-        int[] IntArray = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
-        changeArray(IntArray);
+        int[] intArray = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+        changeArray(intArray);
 
-        int[] EmptyArray = new int[100];
-        fullArray(EmptyArray);
+        int[] emptyArray = new int[100];
+        fullArray(emptyArray);
 
-        int[] MultArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        changeNum(MultArray);
+        int[] multArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        changeNum(multArray);
 
         int size = 6; //Задаем раазмер матрицы
         createDiagonalMatrix(size);
@@ -39,9 +39,8 @@ public class Main {
     public static void checkSumSign() {
         int a = 10; // Задаем значение переменной a
         int b = -5; // Задаем значение переменной b
-        int sum = a + b; // Суммируем a и b
 
-        if (sum >= 0) {
+        if (a + b >= 0) {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
@@ -75,8 +74,7 @@ public class Main {
 
     // Задание 5
     public static boolean sumInRange(int a, int b) {
-        int sum = a + b; // Сумма двух чисел
-        return sum >= 10 && sum <= 20; // Проверяем, лежит ли сумма в заданном диапазоне
+        return (a + b >= 10) && (a + b <= 20); // Проверяем, лежит ли сумма в заданном диапазоне
     }
 
     // Задание 6
@@ -103,51 +101,45 @@ public class Main {
 
     // Задание 9
     public static boolean isLeapYear(int year) {
-        if (year % 400 == 0) {
-            return true; // Если год делится без остатка на 400 - високосный
-        } else if (year % 100 == 0) {
-            return false; // Если год делится без остатка на 100 - НЕвисокосный
-        } else {
-            return year % 4 == 0; // При этом, если делится на 4 без остатка - високосный
-        }
+        return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
     }
     // Задание 10
 
-    public static void changeArray(int[] IntArray) {
-        for (int i = 0; i < IntArray.length; i++) {
-            IntArray[i] = IntArray[i] == 0 ? 1 : 0;
+    public static void changeArray(int[] intArray) {
+        for (int i = 0; i < intArray.length; i++) {
+            intArray[i] = intArray[i] == 0 ? 1 : 0;
         }
 
         System.out.println("Модифицированный массив: ");
-        for (int j : IntArray) {
+        for (int j : intArray) {
             System.out.print(j + " ");
         }
         System.out.println();
     }
 
     // Задание 11
-    public static void fullArray(int[] EmptyArray) {
-        for (int i = 0; i < EmptyArray.length; i++) {
-            EmptyArray[i] = i + 1;
+    public static void fullArray(int[] emptyArray) {
+        for (int i = 0; i < emptyArray.length; i++) {
+            emptyArray[i] = i + 1;
         }
 
         System.out.println("Заполненный массив:");
-        for (int value : EmptyArray) {
+        for (int value : emptyArray) {
             System.out.print(value + " ");
         }
         System.out.println();
     }
 
+
     // Задание 12
-    public static void changeNum(int[] MultArray) {
-        for (int i = 0; i < MultArray.length; i++) {
-            if (MultArray[i] < 6) {
-                MultArray[i] *= 2;
+    public static void changeNum(int[] multArray) {
+        for (int i = 0; i < multArray.length; i++) {
+            if (multArray[i] < 6) {
+                multArray[i] *= 2;
             }
         }
-
         System.out.println("Массив, в котором числа меньше 6 умножены на 2:");
-        for (int value : MultArray) {
+        for (int value : multArray) {
             System.out.print(value + " ");
         }
         System.out.println();
