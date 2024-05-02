@@ -1,183 +1,131 @@
+import java.math.BigDecimal;
+
 public class Main {
+    //Задание 1
+    public static class Employee {
 
+        // Поля класса
+        private String fullName;
+        private String position;
+        private String email;
+        private String phone;
+        private BigDecimal salary;
+        private int age;
+
+        //Конструктор класса
+        public Employee(String fullName, String position, String email, String phone, BigDecimal salary, int age) {
+            this.fullName = fullName;
+            this.position = position;
+            this.email = email;
+            this.phone = phone;
+            this.salary = salary;
+            this.age = age;
+        }
+
+        //Вывод информации о сотруднике
+        public void printInfo() {
+            System.out.println("Сотрудник: " + fullName);
+            System.out.println("Должность: " + position);
+            System.out.println("Email: " + email);
+            System.out.println("Телефон: " + phone);
+            System.out.println("Зарплата: " + salary);
+            System.out.println("Возраст: " + age);
+        }
+
+        public static void main(String[] args) {
+            Employee employee = new Employee("Анна Ивановна Петрова",
+                    "Менеджер по продажам", "anna.petrova@example.com",
+                    "+71234567890", new BigDecimal("45000.00"), 28);
+            employee.printInfo();
+        }
+    }
+
+    //Задание 2
     public static void main(String[] args) {
-        printThreeWords();
-        checkSumSign();
-        printColor();
-        compareNumbers();
-        System.out.println(sumInRange(3, 3));// Результат: false
-        positiveOrNegativeNumber(0);// Результат: Число положительное
-        System.out.println(isNegative(5)); // Результат: false
-        printStringMultipleTimes("Hi,Aston!", 5);
-        System.out.println(isLeapYear(2000)); //Ожидаемый результат: true
+        Person[] persArray = new Person[5];
 
-        int[] intArray = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
-        changeArray(intArray);
+//Создаем массив сотрудников
+        persArray[0] = new Person("Ivanov Ivan", "Engineer",
+                "ivivan@mailbox.com", "892312312", 30000, 30);
+        persArray[1] = new Person("Petrov Petr", "Analyst",
+                "petrov@mailbox.com", "891231231", 40000, 31);
+        persArray[2] = new Person("Danilov Daniil", "Developer",
+                "danilov@mailbox.com", "893213213", 50000, 32);
+        persArray[3] = new Person("Makarov Makar", "Programmer",
+                "makarov@mailbox.com", "891234123", 60000, 33);
+        persArray[4] = new Person("Sergeev Sergey", "Designer",
+                "sergeev@mailbox.com", "894321432", 70000, 34);
 
-        int[] emptyArray = new int[100];
-        fullArray(emptyArray);
-
-        int[] multArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        changeNum(multArray);
-
-        int size = 6; //Задаем раазмер матрицы
-        createDiagonalMatrix(size);
-
-        int len = 8; // Длинна массива
-        int initialValue = 3; // Значение элемента для массива
-        createArray(len, initialValue);
-    }
-
-    // Задание 1
-    public static void printThreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
-    }
-
-    // Задание 2
-    public static void checkSumSign() {
-        int a = 10; // Задаем значение переменной a
-        int b = -5; // Задаем значение переменной b
-
-        if (a + b >= 0) {
-            System.out.println("Сумма положительная");
-        } else {
-            System.out.println("Сумма отрицательная");
-        }
-    }
-
-    // Задание 3
-    public static void printColor() {
-        int value = 101; // Задаем значение переменной value
-
-        if (value <= 0) {
-            System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
-            System.out.println("Желтый");
-        } else {
-            System.out.println("Зеленый");
-        }
-    }
-
-    // Задание 4
-    public static void compareNumbers() {
-        int a = 5; // Задаем значение переменной a
-        int b = 10; // Задаем значение переменной b
-
-        if (a >= b) {
-            System.out.println("a >= b");
-        } else {
-            System.out.println("a < b");
-        }
-    }
-
-    // Задание 5
-    public static boolean sumInRange(int a, int b) {
-        return (a + b >= 10) && (a + b <= 20); // Проверяем, лежит ли сумма в заданном диапазоне
-    }
-
-    // Задание 6
-    public static void positiveOrNegativeNumber(int number) {
-        if (number >= 0) {
-            System.out.println("Число положительное");
-        } else {
-            System.out.println("Число отрицательное");
-        }
-    }
-
-    // Задание 7
-    public static boolean isNegative(int number) {
-        return number < 0; // Возвращает true, если число отрицательное
-    }
-
-    // Задание 8
-    public static void printStringMultipleTimes(String text, int count) {
-        // Цикл выполняется < count раз
-        for (int i = 0; i < count; i++) {
-            System.out.println(text);
-        }
-    }
-
-    // Задание 9
-    public static boolean isLeapYear(int year) {
-        return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
-    }
-    // Задание 10
-
-    public static void changeArray(int[] intArray) {
-        for (int i = 0; i < intArray.length; i++) {
-            intArray[i] = intArray[i] == 0 ? 1 : 0;
-        }
-
-        System.out.println("Модифицированный массив: ");
-        for (int j : intArray) {
-            System.out.print(j + " ");
-        }
-        System.out.println();
-    }
-
-    // Задание 11
-    public static void fullArray(int[] emptyArray) {
-        for (int i = 0; i < emptyArray.length; i++) {
-            emptyArray[i] = i + 1;
-        }
-
-        System.out.println("Заполненный массив:");
-        for (int value : emptyArray) {
-            System.out.print(value + " ");
-        }
-        System.out.println();
-    }
-
-
-    // Задание 12
-    public static void changeNum(int[] multArray) {
-        for (int i = 0; i < multArray.length; i++) {
-            if (multArray[i] < 6) {
-                multArray[i] *= 2;
-            }
-        }
-        System.out.println("Массив, в котором числа меньше 6 умножены на 2:");
-        for (int value : multArray) {
-            System.out.print(value + " ");
-        }
-        System.out.println();
-    }
-
-    // Задание 13
-    public static void createDiagonalMatrix(int size) {
-        int[][] matrix = new int[size][size];
-
-        // Заполнение диагонали единицами
-        for (int i = 0; i < size; i++) {
-            matrix[i][i] = 1;
-        }
-
-        System.out.println("Заполненный многомерный массив: ");
-        for (int[] row : matrix) {
-            for (int element : row) {
-                System.out.print(element + " ");
-            }
+//Вывод информации о каждом сотруднике
+        for (Person employee : persArray) {
+            employee.printInfo();
             System.out.println();
         }
     }
-    //Задание 14
-    public static void createArray(int len, int initialValue) {
-        int[] array = new int[len];
 
-        // Заполняем массив значениями initialValue
-        for (int i = 0; i < len; i++) {
-            array[i] = initialValue;
+    // Поля класса
+    public static class Person {
+        private String name;
+        private String position;
+        private String email;
+        private String phone;
+        private double salary;
+        private int age;
+
+        //Конструктор класса
+        public Person(String name, String position, String email, String phone, double salary, int age) {
+            this.name = name;
+            this.position = position;
+            this.email = email;
+            this.phone = phone;
+            this.salary = salary;
+            this.age = age;
         }
 
-        System.out.println("Возвращаем заполненный массив:");
-        for (int value : array) {
-            System.out.print(value + " ");
+        //Вывод информации на экран
+        public void printInfo() {
+            System.out.println("Name: " + name);
+            System.out.println("Position: " + position);
+            System.out.println("Email: " + email);
+            System.out.println("Phone: " + phone);
+            System.out.println("Salary: " + salary);
+            System.out.println("Age: " + age);
         }
-        System.out.println();
+    }
+
+    //Задание 3
+    public static class Park {
+
+        //Поля классса с данными об атракцонах
+        public class Attraction {
+            private String name;
+            private String workingHours;
+            private double cost;
+
+            //Конструктор класса
+            public Attraction(String name, String workingHours, double cost) {
+                this.name = name;
+                this.workingHours = workingHours;
+                this.cost = cost;
+            }
+
+            //Вывод информации об атракционах на экран
+            public void displayInfo() {
+                System.out.println("Атракцон: " + name);
+                System.out.println("Часы работы: " + workingHours);
+                System.out.println("Цена: Р " + cost);
+            }
+        }
+
+        public static void main(String[] args) {
+            Park park = new Park();
+            Attraction rollerCoaster = park.new Attraction("Американские горки", "10:00 до 21:00 ", 10.00);
+            Attraction merryGoRound = park.new Attraction("Колесо обозрения", "10:00 до 21:00 ", 15.00);
+
+            rollerCoaster.displayInfo();
+            System.out.println();
+            merryGoRound.displayInfo();
+        }
     }
 
 }
-
-
