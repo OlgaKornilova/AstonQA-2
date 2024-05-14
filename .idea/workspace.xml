@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 7 complete" />
+    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 8 complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main$MyArrayDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main$MyArraySizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "lesson__8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/olgakornilova/Desktop/AstonQA-2",
+    "last_opened_file_path": "/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -82,6 +88,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/lesson_8" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lesson_8" />
     </key>
@@ -187,12 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715591847556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson 8 complete">
+      <option name="closed" value="true" />
+      <created>1715592105835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715592105835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 4 complete" />
     <MESSAGE value="lesson 7 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 complete" />
+    <MESSAGE value="lesson 8 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 8 complete" />
   </component>
 </project>
