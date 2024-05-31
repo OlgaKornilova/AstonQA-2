@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 8 complete">
+    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 8. Separate classes to files">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24,_23_39_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24,_23_40_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24__23_39__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24__23_40__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main$MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main$MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +76,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Lesson_13.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.lesson_7.Main.executor": "Run",
     "Application.lesson_7.executor": "Run",
@@ -95,9 +100,9 @@
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson_8.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Lesson_13">
+    <configuration name="Lesson_13" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_13.Task_2" />
       <module name="Aston_Lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,21 +144,14 @@
     <list>
       <item itemvalue="Application.lesson_8.Main" />
       <item itemvalue="Application.lesson_7.Main" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Lesson_13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_13" />
         <item itemvalue="Application.lesson_7.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -204,13 +202,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715592105835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson 8. Separate classes to files">
+      <option name="closed" value="true" />
+      <created>1715685087421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715685087421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 4 complete" />
     <MESSAGE value="lesson 7 complete" />
     <MESSAGE value="lesson 8 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 8 complete" />
+    <MESSAGE value="lesson 8. Separate classes to files" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 8. Separate classes to files" />
   </component>
 </project>
