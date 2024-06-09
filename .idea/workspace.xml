@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 8. Separate classes to files">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24,_23_39_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24,_23_40_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24__23_39__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_5_24__23_40__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 13 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_12_junit_5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Bowl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Bowl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Task_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Task_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/MyArrayDataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/MyArrayDataException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/MyArraySizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/MyArraySizeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Task.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_7" />
+        <entry key="$PROJECT_DIR$" value="lesson_12_testng" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +72,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -74,35 +86,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Lesson_13.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.lesson_7.Main.executor": "Run",
-    "Application.lesson_7.executor": "Run",
-    "Application.lesson_8.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson__8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Lesson_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_12_junit_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_12_testng.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_8.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MainTest.testFactorialOfZero.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__13&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/lesson_8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson_13" />
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_13">
-    <configuration name="Lesson_13" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_13.Task_2" />
+  <component name="RunManager" selected="TestNG.MainTest">
+    <configuration name="lesson_12_testng" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_12_testng.Main" />
       <module name="Aston_Lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,6 +150,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Lesson_4" />
       <method v="2">
@@ -141,17 +178,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_testng" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_testng.MainTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testFactorialOfZero" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_testng" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_testng.MainTest" />
+      <option name="METHOD_NAME" value="testFactorialOfZero" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.lesson_8.Main" />
       <item itemvalue="Application.lesson_7.Main" />
-      <item itemvalue="Application.Lesson_13" />
+      <item itemvalue="Application.lesson_12_testng" />
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="TestNG.MainTest" />
+      <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson_13" />
+        <item itemvalue="TestNG.MainTest" />
+        <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="Application.lesson_12_testng" />
         <item itemvalue="Application.lesson_7.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -210,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715685087421</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson 13 completed">
+      <option name="closed" value="true" />
+      <created>1717173154411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717173154411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +311,7 @@
     <MESSAGE value="lesson 7 complete" />
     <MESSAGE value="lesson 8 complete" />
     <MESSAGE value="lesson 8. Separate classes to files" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 8. Separate classes to files" />
+    <MESSAGE value="lesson 13 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 13 completed" />
   </component>
 </project>
