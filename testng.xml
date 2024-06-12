@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/olgakornilova/Desktop/AstonQA-2"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/olgakornilova/Desktop/AstonQA-2/src/test/java/lesson_15/MainTest.java"><classes><class name="lesson_15.MainTest"><methods><include name="testBlockTitle"/><include name="testPaymentSystemLogos"/><include name="testMoreAboutServiceLink"/><include name="testContinueButtonFunctionality"/></methods></class></classes></test></suite>
