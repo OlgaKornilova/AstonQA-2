@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 13 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/OnlinePaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_15/OnlinePaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/WebDriverManagerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_15/WebDriverManagerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_12_junit_5" />
+        <entry key="$PROJECT_DIR$" value="lesson_16" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,9 +116,9 @@
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson_15">
+  <component name="RunManager" selected="JUnit.Junit_lesson_15">
     <configuration name="lesson_15" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_15.Main" />
+      <option name="MAIN_CLASS_NAME" value="lesson_15.MainTest" />
       <module name="Aston_Lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,6 +127,16 @@
     <configuration name="lesson_8.Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lesson_8.Main" />
       <module name="Aston_Lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Junit_lesson_15" type="JUnit" factoryName="JUnit">
+      <module name="Aston_Lessons" />
+      <option name="PACKAGE_NAME" value="lesson_15" />
+      <option name="MAIN_CLASS_NAME" value="lesson_15.MainTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,6 +247,7 @@
     <list>
       <item itemvalue="Application.lesson_8.Main" />
       <item itemvalue="Application.lesson_15" />
+      <item itemvalue="JUnit.Junit_lesson_15" />
       <item itemvalue="TestNG.Main" />
       <item itemvalue="TestNG.Task_1" />
       <item itemvalue="TestNG.MainTest.testBlockTitle" />
@@ -242,10 +256,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.lesson_15" />
-        <item itemvalue="TestNG.MainTest.testBlockTitle" />
-        <item itemvalue="TestNG.Main" />
-        <item itemvalue="TestNG.Task_1" />
         <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
+        <item itemvalue="TestNG.MainTest.testBlockTitle" />
+        <item itemvalue="TestNG.Task_1" />
+        <item itemvalue="TestNG.Main" />
       </list>
     </recent_temporary>
   </component>
