@@ -17,15 +17,17 @@ public class HomePage {
         this.wait = new WebDriverWait(driver, 10);
     }
 
-    public String getOnlinePaymentBlockTitle(String expectedTitle) {
-        // Закрываем баннер cookie, если он присутствует
+    public void closeCookieBanner() {
         try {
             WebElement cookieBanner = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("cookie")));
             cookieBanner.findElement(By.id("cookie-agree")).click();
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("cookie")));
         } catch (Exception e) {
             System.out.println("Cookie banner not found or already closed.");
         }
+    }
 
+    public String getOnlinePaymentBlockTitle(String expectedTitle) {
         try {
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//section[@class='pay']//h2[contains(text(), '" + expectedTitle + "')]")));
             return element.getText();

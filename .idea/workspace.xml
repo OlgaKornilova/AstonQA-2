@@ -7,7 +7,34 @@
     <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 13 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_15/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_12_junit_5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_12_junit_5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_12_testng/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_12_testng/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_13/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_13/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_13/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_13/Task_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_13/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_13/Task_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/OnlinePaymentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/OnlinePaymentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/WebDriverManagerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/WebDriverManagerUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Bowl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Bowl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Task_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Task_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/MyArrayDataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/MyArrayDataException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/MyArraySizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/MyArraySizeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_12_junit_5/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_12_testng/MainTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +122,10 @@
     "TestNG.MainTest.testFactorialOfZero.executor": "Run",
     "TestNG.Task_1.executor": "Run",
     "TestNG.Task_1.testBlockTitle.executor": "Run",
-    "git-widget-placeholder": "lesson__15",
+    "TestNG.Test_1.executor": "Run",
+    "TestNG.Test_2.executor": "Run",
+    "TestNG.Test_2.fillPaymentInfo.executor": "Debug",
+    "git-widget-placeholder": "lesson__16",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8",
     "project.structure.last.edited": "Modules",
@@ -108,12 +138,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/lesson_8" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lesson_16" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lesson_13" />
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson_15">
+  <component name="RunManager" selected="TestNG.Test_2">
     <configuration name="lesson_15" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lesson_15.Main" />
       <module name="Aston_Lessons" />
@@ -137,33 +170,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="Lesson_4" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Aston_Lessons" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="lesson_15" />
-      <option name="MAIN_CLASS_NAME" value="lesson_15.Main" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,15 +222,52 @@
     </configuration>
     <configuration name="Task_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Aston_Lessons" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson_15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="lesson_15" />
       <option name="MAIN_CLASS_NAME" value="lesson_15.Task_1" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="lesson_16" />
+      <option name="MAIN_CLASS_NAME" value="lesson_16.Test_2" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -234,16 +277,16 @@
     <list>
       <item itemvalue="Application.lesson_8.Main" />
       <item itemvalue="Application.lesson_15" />
-      <item itemvalue="TestNG.Main" />
+      <item itemvalue="TestNG.Test_2" />
       <item itemvalue="TestNG.Task_1" />
       <item itemvalue="TestNG.MainTest.testBlockTitle" />
       <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_2" />
         <item itemvalue="Application.lesson_15" />
         <item itemvalue="TestNG.MainTest.testBlockTitle" />
-        <item itemvalue="TestNG.Main" />
         <item itemvalue="TestNG.Task_1" />
         <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
       </list>
