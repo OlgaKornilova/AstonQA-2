@@ -5,36 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 13 completed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_15/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_15/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_12_junit_5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_12_junit_5/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_12_testng/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_12_testng/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_13/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_13/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_13/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_13/Task_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_13/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_13/Task_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/OnlinePaymentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/OnlinePaymentPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_15/WebDriverManagerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_15/WebDriverManagerUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Bowl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Bowl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Task_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Task_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_7/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_7/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/MyArrayDataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/MyArrayDataException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/MyArraySizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/MyArraySizeException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_12_junit_5/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_12_testng/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetOrderStatus_Body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetOrderStatus_Header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetUserUnban_Headers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetUswrUrban_Body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_3_ExRatesDaily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_3_MetalsPrices.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,42 +80,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Lesson_13.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.lesson_12_junit_5.executor": "Run",
-    "Application.lesson_12_testng.executor": "Run",
-    "Application.lesson_15.executor": "Run",
-    "Application.lesson_7.Main.executor": "Run",
-    "Application.lesson_7.executor": "Run",
-    "Application.lesson_8.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.MainTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.Main.executor": "Run",
-    "TestNG.MainTest (1).executor": "Run",
-    "TestNG.MainTest.executor": "Run",
-    "TestNG.MainTest.testBlockTitle.executor": "Run",
-    "TestNG.MainTest.testFactorialOfZero.executor": "Run",
-    "TestNG.Task_1.executor": "Run",
-    "TestNG.Task_1.testBlockTitle.executor": "Run",
-    "TestNG.Test_1.executor": "Run",
-    "TestNG.Test_2.executor": "Run",
-    "TestNG.Test_2.fillPaymentInfo.executor": "Debug",
-    "git-widget-placeholder": "lesson__16",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Lesson_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_12_junit_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_12_testng.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson_8.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.Main.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MainTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MainTest.testBlockTitle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MainTest.testFactorialOfZero.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_1.testBlockTitle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test_2.fillPaymentInfo.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__16&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/lesson_8" />
