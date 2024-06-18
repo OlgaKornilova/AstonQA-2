@@ -34,30 +34,15 @@ public class Test_2 {
         paymentChecker.enterSumNumber(sum);
         paymentChecker.clickContinueButton();
 
-        // Проверка наличия и переключения на iframe
-        assertTrue(paymentChecker.isPaymentIframePresentAndSwitch(), "Кнопка 'Продолжить' не работает. Платежный виджет не отображен.");
-
-        // Проверка наличия иконок платёжных систем внутри iframe
-        assertTrue(paymentChecker.arePaymentSystemIconsPresent(), "Иконки платёжных систем отсутствуют.");
-
-        // Проверка корректности отображения суммы
         String actualSum = paymentChecker.getDisplayedSum();
-        softAssertion.assertEquals(actualSum, sum, "Сумма отображается некорректно. Актуальное значение: " + actualSum);
-
-        // Проверка корректности отображения суммы на кнопке
         String actualSumButton = paymentChecker.getDisplayedButtonSum();
-        softAssertion.assertEquals(actualSumButton, sum, "Сумма на кнопке отображается некорректно. Актуальное значение: " + actualSum);
-
-        // Проверка корректности отображения номера телефона
         String actualPhoneNumber = paymentChecker.getDisplayedPhoneNumber();
-        softAssertion.assertEquals(actualPhoneNumber, phoneNumber, "Номер телефона отображается некорректно. Актуальное значение: " + actualPhoneNumber);
 
-
-
-        // Проверка надписей в незаполненных полях для ввода реквизитов карты
-        assertTrue(paymentChecker.areCardFieldsPlaceholdersCorrect(expectedPlaceholders), "Плейсхолдеры полей для ввода реквизитов карты некорректны.");
-
-        paymentChecker.switchToDefaultContent();
+        softAssertion.assertTrue(paymentChecker.arePaymentSystemIconsPresent(), "Иконки платёжных систем отсутствуют."); // Проверка наличия иконок платёжных систем внутри iframe
+        softAssertion.assertEquals(actualSum, sum, "Сумма отображается некорректно. Актуальное значение: " + actualSum); // Проверка корректности отображения суммы
+        softAssertion.assertEquals(actualSumButton, sum, "Сумма на кнопке отображается некорректно. Актуальное значение: " + actualSum); // Проверка корректности отображения суммы на кнопке
+        softAssertion.assertEquals(actualPhoneNumber, phoneNumber, "Номер телефона отображается некорректно. Актуальное значение: " + actualPhoneNumber); // Проверка корректности отображения номера телефона
+        softAssertion.assertTrue(paymentChecker.areCardFieldsPlaceholdersCorrect(expectedPlaceholders), "Плейсхолдеры полей для ввода реквизитов карты некорректны."); // Проверка надписей в незаполненных полях для ввода реквизитов карты
 
         softAssertion.assertAll();
     }

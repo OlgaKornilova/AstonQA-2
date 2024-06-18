@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 13 completed">
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_1_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetOrderStatus_Body.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetOrderStatus_Header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetUserUnban_Headers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_2_SetUswrUrban_Body.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_3_ExRatesDaily.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aston_L-11/L-11_3_MetalsPrices.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_16/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_16/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_16/PaymentChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_16/PaymentChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_16/PlaceholderChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_16/PlaceholderChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_16/Test_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_16/Test_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,7 @@
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test_2">
+  <component name="RunManager" selected="TestNG.Test_1">
     <configuration name="lesson_15" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lesson_15.Main" />
       <module name="Aston_Lessons" />
@@ -229,6 +222,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_1" type="TestNG">
+      <module name="Aston_Lessons" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="lesson_16" />
+      <option name="MAIN_CLASS_NAME" value="lesson_16.Test_1" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Aston_Lessons" />
       <shortenClasspath name="NONE" />
@@ -259,6 +272,7 @@
     <list>
       <item itemvalue="Application.lesson_8.Main" />
       <item itemvalue="Application.lesson_15" />
+      <item itemvalue="TestNG.Test_1" />
       <item itemvalue="TestNG.Test_2" />
       <item itemvalue="TestNG.Task_1" />
       <item itemvalue="TestNG.MainTest.testBlockTitle" />

@@ -37,6 +37,8 @@ public class PaymentChecker {
 
     public void clickContinueButton() {
         driver.findElement(continueButton).click();
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(paymentIframe));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".pay-description__cost")));
     }
 
     public void closeCookieBanner() {
@@ -46,17 +48,6 @@ public class PaymentChecker {
             wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("cookie")));
         } catch (Exception e) {
             System.out.println("Cookie banner not found or already closed.");
-        }
-    }
-
-    public boolean isPaymentIframePresentAndSwitch() {
-        try {
-            WebElement iframe = wait.until(ExpectedConditions.visibilityOfElementLocated(paymentIframe));
-            driver.switchTo().frame(iframe);
-            return true;
-        } catch (Exception e) {
-            System.out.println("Iframe not present");
-            return false;
         }
     }
 
@@ -79,7 +70,7 @@ public class PaymentChecker {
         Matcher matcher = pattern.matcher(fullText);
 
         if (matcher.find()) {
-            return matcher.group(1); // Возвращаем только номер телефона
+            return matcher.group(1); // Возвращаем  номер телефона
         } else {
             return "";
         }
@@ -109,7 +100,4 @@ public class PaymentChecker {
         return false;
     }
 
-    public void switchToDefaultContent() {
-        driver.switchTo().defaultContent();
-    }
 }

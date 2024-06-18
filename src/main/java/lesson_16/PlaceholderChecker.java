@@ -35,7 +35,7 @@ public class PlaceholderChecker {
         WebElement optionToSelect = driver.findElement(By.xpath("//p[text()='" + serviceName + "']"));
         optionToSelect.click(); // Кликаем на нужную опцию
 
-        // Подождем, пока форма не станет видимой
+        // Ждем пока форма не откроется
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".pay-form.opened")));
     }
 
@@ -45,20 +45,4 @@ public class PlaceholderChecker {
         return activeForm.findElements(By.cssSelector("input[type='text']"));
     }
 
-    public void validate(String url) {
-        driver.get(url);
-
-        List<WebElement> forms = driver.findElements(By.cssSelector(formSelector));
-        for (WebElement form : forms) {
-            List<WebElement> inputs = form.findElements(By.cssSelector("input[type='text']"));
-            for (WebElement input : inputs) {
-                String placeholder = input.getAttribute("placeholder");
-                if (placeholder == null || placeholder.trim().isEmpty()) {
-                    System.out.println("Input element with id=\"" + input.getAttribute("id") + "\" in form id=\"" + form.getAttribute("id") + "\" is missing a placeholder.");
-                }
-            }
-        }
-
-        driver.quit();
-    }
 }
