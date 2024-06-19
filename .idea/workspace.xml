@@ -82,6 +82,9 @@
     "Application.lesson_8.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.testFactorialOfLargeNumber.executor": "Run",
+    "JUnit.MainTest.testFactorialOfNegativeNumber.executor": "Run",
+    "JUnit.MainTest.testFactorialOfPositiveNumber.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -109,9 +112,9 @@
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task_1.testBlockTitle">
-    <configuration name="lesson_15" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_12_testng.Main" />
+  <component name="RunManager" selected="JUnit.MainTest.testFactorialOfPositiveNumber">
+    <configuration name="lesson_12_junit_5.MainTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
       <module name="Aston_Lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,29 +127,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Lesson_4" />
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Lesson_4" />
-      <option name="filePath" />
+    <configuration name="MainTest.testFactorialOfLargeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="METHOD_NAME" value="testFactorialOfLargeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testFactorialOfNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston_Lessons" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_12_testng.*" />
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="lesson_12_testng" />
       <option name="MAIN_CLASS_NAME" value="lesson_12_testng.MainTest" />
@@ -160,24 +183,36 @@
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testFactorialOfZero" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testFactorialOfPositiveNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston_Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_12_testng.*" />
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_12_testng" />
-      <option name="MAIN_CLASS_NAME" value="lesson_12_testng.MainTest" />
-      <option name="METHOD_NAME" value="testFactorialOfZero" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="METHOD_NAME" value="testFactorialOfPositiveNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lesson_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lesson_4" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -307,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717173154411</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson 12 junit">
+      <option name="closed" value="true" />
+      <created>1718044074426</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718044074426</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +359,7 @@
     <MESSAGE value="lesson 8 complete" />
     <MESSAGE value="lesson 8. Separate classes to files" />
     <MESSAGE value="lesson 13 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 13 completed" />
+    <MESSAGE value="lesson 12 junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 12 junit" />
   </component>
 </project>
