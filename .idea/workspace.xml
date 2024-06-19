@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 12 junit">
+    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 13 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,22 +154,36 @@
       <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
       <option name="METHOD_NAME" value="testFactorialOfLargeNumber" />
       <option name="TEST_OBJECT" value="method" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainTest.testFactorialOfNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston_Lessons" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson_12_junit_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
-      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
-      <option name="METHOD_NAME" value="testFactorialOfNegativeNumber" />
-      <option name="TEST_OBJECT" value="method" />
+
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="lesson_12_testng" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_testng.MainTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,21 +217,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_15" />
+      <option name="MAIN_CLASS_NAME" value="lesson_15.Task_1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_1.testBlockTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_15" />
+      <option name="MAIN_CLASS_NAME" value="lesson_15.Task_1" />
+      <option name="METHOD_NAME" value="testBlockTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.lesson_8.Main" />
-      <item itemvalue="Application.lesson_12_junit_5.MainTest" />
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.testFactorialOfPositiveNumber" />
-      <item itemvalue="JUnit.MainTest.testFactorialOfLargeNumber" />
-      <item itemvalue="JUnit.MainTest.testFactorialOfNegativeNumber" />
+      <item itemvalue="Application.lesson_15" />
+      <item itemvalue="TestNG.Task_1" />
+      <item itemvalue="TestNG.Task_1.testBlockTitle" />
+      <item itemvalue="TestNG.MainTest" />
+      <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testFactorialOfPositiveNumber" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testFactorialOfNegativeNumber" />
-        <item itemvalue="JUnit.MainTest.testFactorialOfLargeNumber" />
-        <item itemvalue="Application.lesson_12_junit_5.MainTest" />
+        <item itemvalue="TestNG.Task_1.testBlockTitle" />
+        <item itemvalue="TestNG.Task_1" />
+        <item itemvalue="Application.lesson_15" />
+        <item itemvalue="TestNG.MainTest.testFactorialOfZero" />
+        <item itemvalue="TestNG.MainTest" />
       </list>
     </recent_temporary>
   </component>
