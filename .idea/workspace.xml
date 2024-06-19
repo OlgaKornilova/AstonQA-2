@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 8 complete">
+    <list default="true" id="9dfcc2a9-7a7e-4a93-b0fc-ce2c24002f65" name="Changes" comment="lesson 12 junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main$MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main$MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lesson_8/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_7" />
+        <entry key="$PROJECT_DIR$" value="lesson_13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +55,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -72,19 +71,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Lesson_13.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.lesson_12_junit_5.executor": "Run",
+    "Application.lesson_12_testng.executor": "Run",
+    "Application.lesson_15.executor": "Run",
     "Application.lesson_7.Main.executor": "Run",
     "Application.lesson_7.executor": "Run",
     "Application.lesson_8.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.testFactorialOfLargeNumber.executor": "Run",
+    "JUnit.MainTest.testFactorialOfNegativeNumber.executor": "Run",
+    "JUnit.MainTest.testFactorialOfPositiveNumber.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson__8",
+    "TestNG.MainTest.executor": "Run",
+    "TestNG.MainTest.testFactorialOfZero.executor": "Run",
+    "TestNG.Task_1.executor": "Run",
+    "TestNG.Task_1.testBlockTitle.executor": "Run",
+    "git-widget-placeholder": "lesson__12__junit__5",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/olgakornilova/Desktop/AstonQA-2/src/main/java/lesson_8",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -92,26 +107,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/lesson_8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson_13" />
       <recent name="lesson_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson_8.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.MainTest.testFactorialOfPositiveNumber">
+    <configuration name="lesson_12_junit_5.MainTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
       <module name="Aston_Lessons" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson_7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_7.Main" />
-      <module name="Aston_Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,6 +122,69 @@
     <configuration name="lesson_8.Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lesson_8.Main" />
       <module name="Aston_Lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testFactorialOfLargeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="METHOD_NAME" value="testFactorialOfLargeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testFactorialOfNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="METHOD_NAME" value="testFactorialOfNegativeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testFactorialOfPositiveNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_12_junit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_12_junit_5" />
+      <option name="MAIN_CLASS_NAME" value="lesson_12_junit_5.MainTest" />
+      <option name="METHOD_NAME" value="testFactorialOfPositiveNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,13 +204,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.lesson_8.Main" />
-      <item itemvalue="Application.lesson_7.Main" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.lesson_12_junit_5.MainTest" />
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MainTest.testFactorialOfPositiveNumber" />
+      <item itemvalue="JUnit.MainTest.testFactorialOfLargeNumber" />
+      <item itemvalue="JUnit.MainTest.testFactorialOfNegativeNumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson_7.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.testFactorialOfPositiveNumber" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testFactorialOfNegativeNumber" />
+        <item itemvalue="JUnit.MainTest.testFactorialOfLargeNumber" />
+        <item itemvalue="Application.lesson_12_junit_5.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +276,40 @@
       <option name="project" value="LOCAL" />
       <updated>1715592105835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson 8. Separate classes to files">
+      <option name="closed" value="true" />
+      <created>1715685087421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715685087421</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson 13 completed">
+      <option name="closed" value="true" />
+      <created>1717173154411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717173154411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson 12 junit">
+      <option name="closed" value="true" />
+      <created>1718044074426</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718044074426</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 4 complete" />
     <MESSAGE value="lesson 7 complete" />
     <MESSAGE value="lesson 8 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 8 complete" />
+    <MESSAGE value="lesson 8. Separate classes to files" />
+    <MESSAGE value="lesson 13 completed" />
+    <MESSAGE value="lesson 12 junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 12 junit" />
   </component>
 </project>
